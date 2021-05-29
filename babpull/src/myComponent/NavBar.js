@@ -7,15 +7,9 @@ const NavBar = () =>
     <Link to="/">
       Home
     </Link>
-    {/* <Link to="/counter">
-      Counter
+    <Link to="/login">
+      Login
     </Link>
-    <Link to="/todo">
-      Todo List
-    </Link>
-    <Link to="/dogs">
-      Dogs
-    </Link> */}
   </div>
 
 export default NavBar;

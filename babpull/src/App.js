@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NavBar from "./myComponent/NavBar";
+import LoginPage from "./myComponent/login/loginPage";
 
 function App() {
   return (
@@ -10,15 +11,9 @@ function App() {
         <Route exact path="/">
           <h1>밥풀</h1>
         </Route>
-        {/* <Route exact path="/counter">
-          <CounterPage />
+        <Route exact path="/login">
+          <LoginPage />
         </Route>
-        <Route exact path="/dogs">
-          <DogPage />
-        </Route>
-        <Route exact path="/todo">
-          <TodoPage />
-        </Route> */}
       </Switch>
     </BrowserRouter>
   );
