@@ -4,6 +4,9 @@ const schema = new mongoose.Schema({
     id: {
         type: String
     },
+    username: {
+        type: String
+    },
     password: {
         type: String
     }
