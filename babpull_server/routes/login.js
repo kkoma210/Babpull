@@ -19,7 +19,7 @@ router.post('/', (req, res) => {
     db.check(id, password, (result) => {
         console.log(result);
         if(result == null) res.send("login failed");
-        else res.send(`Hello ${id}`);
+        else res.json(result);
     });
 });
 
